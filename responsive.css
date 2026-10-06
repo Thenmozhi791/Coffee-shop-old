@@ -1,0 +1,119 @@
+.check{
+    font-size: 30px;
+    margin-right: 20px;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media(max-width:576px)
+{
+    .navLinks{
+        width: 100%;
+        border-top: var(--border);
+        border-bottom: var(--border);
+        flex-direction: column;
+        position: absolute;
+        top: 78px;
+        display: none;
+    }
+    .navLinks li a{
+        text-align: left;
+
+    }
+    .navLinks:hover{
+        color: var(--main-color);
+    }
+    .check{
+        display: block;
+    }
+    #check:checked~.navLinks{
+        display: flex;
+    }
+    .heroContent{
+        font-size: 20px;
+     }
+     .aboutContainer{
+        flex-direction: column;
+    }
+    .aboutUs{
+        flex-direction: column;
+    }
+    .aboutContent{
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+    }
+    .facilityContainer{
+        flex-direction: column;
+    }
+    .headingImage img{
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    .iconContainer{
+        flex-direction: column;
+    }
+    .headingImage img{
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .headingImage img{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .gallery1{
+        flex-direction: column;
+    }
+    .gallery2{
+        flex-direction: column;
+    }
+    .headingImage img{
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    .team1{
+        flex-direction: column;
+    }
+    .team2{
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactImage{
+        width: 500px;
+        margin: 0 auto;
+    }
+form{
+    /* height: 50%; */
+    width: 400px;
+    /* padding: 30px 30px; */
+    border: var(--border);
+    text-align: center;
+    margin: 0 auto;
+}
+form .box{
+    width: 100%;
+    /* padding: 16px; */
+    font-size: 16px;
+    margin: 8px;
+    color: var(--black);
+    border: var(--border);
+}
+.box-container{
+    flex-direction: column;
+    
+}
+.box{
+    flex-direction: column;
+    }
+}

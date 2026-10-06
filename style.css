@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600&family=Nunito:wght@200;400;600&display=swap');
+
+:root{
+    --main-color:#be9c79;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --border:1px solid var(--black);
+    --box-shadow:8px 12px rgba(0, 0, 0, .1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+section{
+    padding: 40px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbarContainer{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.navBar{
+    width: auto;
+    /* background-color: #be9c79; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+.navBar .logo{
+    width: 100px;
+}
+.navBar .logo img{
+    width: 95%;
+    padding: 5px 0 5px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50px; */
+}
+.navLinks{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 100px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navLinks a{
+    color: var(--black);
+    font-size: 22px;
+}
+.navLinks a:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+.herosection{
+    background-color: #666;
+    /* background-image: url(./images/home-bg.jpg); */
+    background-image: linear-gradient(90deg,white,transparent 70%), url(./images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 40px;
+}
+.heroContent{
+    /* background-color: #be9c79; */
+    width: 40%;
+    text-align: center;
+}
+.heroContent h1{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+}
+p{
+    font-size: 16px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: var(--main-color);
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: var(--white);
+}
+.btn:hover
+{
+    background-color: var(--black);
+}
+.aboutUs{
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.aboutUs .aboutImage{
+    /* background-color: #666; */
+    width: 500px;
+}
+.aboutUs .aboutImage img{
+    width: 100%;
+}
+.aboutContent{
+    width: 50%;
+    text-align: left;
+}
+.aboutContent h2{
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+}
+.aboutContent p{
+    color: var(--light-color);
+}
+.btn{
+    
+     display: inline-block;
+     margin-top: 10px;
+     background-color: var(--main-color);
+     padding: 6px 20px;
+     font-size: 20px;
+     border: none;
+     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+.btn:hover{
+    background-color: var(--black);
+}
+.headingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingImage img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.headingName h3{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 5px;
+    
+}
+.icon p{
+    text-align: center;
+    color: var(--light-color);
+}
+.headingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingImage img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.headingName h3{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+    gap: 10px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+    gap: 10px;
+}
+h4{
+    font-size: 24px;
+}
+.headingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingImage img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.headingName h3{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallery1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.gallery2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.gallery{
+    width: 300px;
+} 
+
+.gallery img{
+    width: 100%;
+    aspect-ratio: 13/9;
+}
+.gallery2 img{
+    width: 100%;
+    aspect-ratio: 13/9;
+}
+.headingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingImage img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.headingName h3{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.team2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.team{
+    width: 300px;
+}
+.team img{
+    width: 100%;
+}
+h4{
+    text-align: center;
+    font-size: 24px;
+}
+.headingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.headingImage img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.headingName h3{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 500px; */
+}
+.contactImage{
+    width: 1000px;
+    /* margin-right: 100px; */
+}
+.contactImage img{
+    width: 100%;
+}
+form{
+    /* height: 50%; */
+    width: 700px;
+    padding: 30px 30px;
+    border: var(--border);
+    text-align: center;
+}
+form .box{
+    /* height: 50%; */
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    margin: 8px;
+    color: var(--black);
+    border: var(--border);
+}
+.btn{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: var(--main-color);
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+.btn:hover
+{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footerContainer .box-container{
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+    }
+.footerContainer .box-container .box{
+    text-align: center;
+}
+.footerContainer .box-container .box i{
+    font-size: 26px;
+    line-height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--white);
+    margin-bottom: 16px;
+}
+.footerContainer .box-container .box h3{
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+}
+.footerContainer .box-container .box P{
+    font-size: 18px;
+    text-align: center;
+    color: var(--light-color);
+}
+.footerContainer .credit{
+    text-align: center;
+    margin-top: 24px;
+    border-top: var(--border);
+    font-size: 24px;
+    color: var(--black);
+}
+.footerContainer .credit span{
+    color: var(--main-color);
+    font-size: 24px;
+}
